@@ -19,10 +19,10 @@ I like implementing methods from papers from scratch and testing whether they ac
 
 | Project | What it is |
 |---|---|
-| **Crop Planning POMDP + Oracle RLVR harness** <!-- [repo](https://github.com/dsquarre/...) --> | 10-season farm simulation with NP-hard mechanics for RL-training LLMs against an exact dynamic-programming oracle. A scratchpad-and-verify prompt took GPT Luna from 12–13 to 30+ rounds, reaching 82% of oracle profit on one seed. |
-| **AlphaZero for Dots and Boxes** <!-- [repo](github.com/dsquarre/DotGame) --> | AlphaZero from scratch in Python, NumPy and PyTorch (MCTS + CNN policy/value heads). Much higher Elo than minimax on boards from 2x2 to 5x5. |
-| **Synthetic data for scarce tabular data** <!-- [repo](github.com/SynthDataGen) --> | 3 imputation methods x 5 generators (CART, Gaussian Copula, CopulaGAN, CTGAN, TVAE) under leakage-free 5-fold CV. First-author paper at ICSRI 2026. |
-| **vLLM stress test** <!-- [repo](vllm-testing) --> | Load-tested a vLLM inference agent under heavy traffic with 0% cache hits on Kaggle free-tier T4 GPUs. |
+| **Crop Planning POMDP + Oracle RLVR harness** <!-- [repo](https://github.com/dsquarre/Simulation) --> | 10-season farm simulation with NP-hard mechanics for RL-training LLMs against an exact dynamic-programming oracle. A scratchpad-and-verify prompt took GPT Luna from 12–13 to 30+ rounds, reaching 82% of oracle profit on one seed. |
+| **AlphaZero for Dots and Boxes** <!-- [repo](https://github.com/dsquarre/DotGame) --> | AlphaZero from scratch in Python, NumPy and PyTorch (MCTS + CNN policy/value heads). Much higher Elo than minimax on boards from 2x2 to 5x5. |
+| **Synthetic data for scarce tabular data** <!-- [repo](https://github.com/SynthDataGen) --> | 3 imputation methods x 5 generators (CART, Gaussian Copula, CopulaGAN, CTGAN, TVAE) under leakage-free 5-fold CV. First-author paper at ICSRI 2026. |
+| **vLLM stress test** <!-- [repo](https://github.com/dsquarrevllm-testing) --> | Load-tested a vLLM inference agent under heavy traffic with 0% cache hits on Kaggle free-tier T4 GPUs. |
 
 ### 📄 Publications
 
