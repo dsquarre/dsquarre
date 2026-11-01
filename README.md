@@ -15,11 +15,11 @@ I like implementing methods from papers from scratch and testing whether they ac
   Detection and segmentation models (YOLO, DINO, U-Net, Keypoint R-CNN) for a production X-ray service.
   Wrote a dynamic-programming sequence-alignment post-processor that raised tooth-numbering F1 from about 75% to over 90% on validation data.
 
-### 🛠️ Selected projects
+### Portfolio Projects
 
 | Project | What it is |
 |---|---|
-| **[Crop Planning POMDP + Oracle RLVR harness](https://github.com/dsquarre/FarmSimulator)** | 10-season farm simulation with NP-hard mechanics for RL-training LLMs against an exact dynamic-programming oracle. A scratchpad-and-verify prompt took GPT Luna from 12–13 to 30+ rounds, reaching 82% of oracle profit on one seed. |
+| **[FarmLand Tactics](https://github.com/dsquarre/FarmSimulator)** | An RL environment, agent harness(LangGraph,LangSmith) and GRPO(HuggingFace TRL) pipeline built around a farm strategy game. |
 | **[AlphaZero for Dots and Boxes](https://github.com/dsquarre/DotGame)** | AlphaZero from scratch in Python, NumPy and PyTorch (MCTS + CNN policy/value heads). Much higher Elo than minimax on boards from 2x2 to 5x5. |
 | **[Synthetic data for scarce tabular data](https://github.com/dsquarre/SynthDataGen)** | 3 imputation methods x 5 generators (CART, Gaussian Copula, CopulaGAN, CTGAN, TVAE) under leakage-free 5-fold CV. First-author paper at ICSRI 2026. |
 | **[vLLM stress test](https://github.com/dsquarre/vllm-testing)** | Load-tested a vLLM inference agent under heavy traffic with 0% cache hits on Kaggle free-tier T4 GPUs. |
